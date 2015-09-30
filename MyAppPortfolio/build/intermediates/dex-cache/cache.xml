@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android_code\MyAppPortfolio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\android_code\MyAppPortfolio\app\build\intermediates\pre-dexed\debug\classes-7f82d2fc0275ee3d0910d6951e2ac5714efc3039.jar" />
+    </item>
+    <item
+        jar="D:\android_code\MyAppPortfolio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\android_code\MyAppPortfolio\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-1546042acec61a6b4e30907c12f02f013dead334.jar" />
+    </item>
+    <item
+        jar="D:\android_code\MyAppPortfolio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\android_code\MyAppPortfolio\app\build\intermediates\pre-dexed\debug\classes-4cb7fc028207fd17e839c927bd21f2c013697ba7.jar" />
+    </item>
+    <item
+        jar="C:\Users\kbabu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\android_code\MyAppPortfolio\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-6b390c6e3b7d91140a1f3f72dd5b9a6ec4a4ecbe.jar" />
+    </item>
+
+</items>
