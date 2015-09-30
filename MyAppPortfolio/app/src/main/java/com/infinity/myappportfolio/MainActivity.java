@@ -2,6 +2,7 @@ package com.infinity.myappportfolio;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -69,9 +70,14 @@ public class MainActivity extends AppCompatActivity {
             default:
                 break;
         }
-        if (projectText != null)
-            Toast.makeText(getApplicationContext(),
+        if (projectText != null) {
+            Toast toast = Toast.makeText(getApplicationContext(),
                     "This button will launch my " + projectText + " app",
-                    Toast.LENGTH_SHORT).show();
+                    Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.TOP|Gravity.LEFT,
+                            (int)Math.abs(view.getX()),
+                            (int)Math.abs(view.getY() + view.getHeight() + findViewById(R.id.content_header).getHeight()));
+            toast.show();
+        }
     }
 }
