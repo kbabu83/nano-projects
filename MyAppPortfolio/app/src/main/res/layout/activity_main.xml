@@ -17,62 +17,50 @@
 
     <Button
         android:id="@+id/btn_popular_movies"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
-        android:layout_below="@+id/content_header" android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
+        style="@style/CustomAppButtonStyle"
         android:text="@string/popular_movies"
-        android:onClick="sendMessage"
-        android:backgroundTint="#F08C35" />
+        android:layout_below="@+id/content_header" android:layout_marginTop="15dp"
+        android:backgroundTint="@color/btn_custom_color_common"
+        android:onClick="sendMessage" />
 
     <Button
         android:id="@+id/btn_live_scores"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
+        style="@style/CustomAppButtonStyle"
         android:layout_below="@+id/btn_popular_movies"
-        android:layout_centerHorizontal="true"
         android:text="@string/scores_app"
         android:onClick="sendMessage"
-        android:backgroundTint="#F08C35" />
+        android:backgroundTint="@color/btn_custom_color_common" />
 
     <Button
         android:id="@+id/btn_library_app"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
+        style="@style/CustomAppButtonStyle"
         android:layout_below="@+id/btn_live_scores"
-        android:layout_centerHorizontal="true"
         android:text="@string/library_app"
         android:onClick="sendMessage"
-        android:backgroundTint="#F08C35" />
+        android:backgroundTint="@color/btn_custom_color_common" />
 
     <Button
         android:id="@+id/btn_build_it_bigger"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
+        style="@style/CustomAppButtonStyle"
         android:layout_below="@+id/btn_library_app"
-        android:layout_centerHorizontal="true"
         android:text="@string/build_big"
         android:onClick="sendMessage"
-        android:backgroundTint="#F08C35" />
+        android:backgroundTint="@color/btn_custom_color_common" />
 
     <Button
         android:id="@+id/btn_xyz_reader"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
+        style="@style/CustomAppButtonStyle"
         android:layout_below="@+id/btn_build_it_bigger"
-        android:layout_centerHorizontal="true"
         android:text="@string/xyz_read"
         android:onClick="sendMessage"
-        android:backgroundTint="#F08C35" />
+        android:backgroundTint="@color/btn_custom_color_common" />
 
     <Button
         android:id="@+id/btn_capstone"
-        android:layout_height="@dimen/activity_content_button_height"
-        android:layout_width="@dimen/activity_content_button_width"
+        style="@style/CustomAppButtonStyle"
         android:layout_below="@+id/btn_xyz_reader"
-        android:layout_centerHorizontal="true"
         android:text="@string/capstone"
         android:onClick="sendMessage"
-        android:backgroundTint="@android:color/holo_red_dark" />
+        android:backgroundTint="@color/btn_custom_color_capstone" />
 </RelativeLayout>
 

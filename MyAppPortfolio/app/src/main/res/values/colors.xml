@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_custom_color_common">#F08C35</color>
+    <color name="btn_custom_color_capstone">@android:color/holo_red_dark</color>
+</resources>

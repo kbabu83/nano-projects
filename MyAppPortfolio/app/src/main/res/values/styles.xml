@@ -5,4 +5,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="CustomAppButtonStyle">
+        <item name="android:layout_height">@dimen/activity_content_button_height</item>
+        <item name="android:layout_width">@dimen/activity_content_button_width</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <!--item name="android:backgroundTint">#F08C35"</item-->
+    </style>
 </resources>
